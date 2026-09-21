@@ -22,13 +22,13 @@ This project is an engineering module built by **DJIDEL Abdelali Rayan** (System
 
 ```mermaid
 graph LR
-    Inflow[Pump Inflow Q1] --> Tank1[Tank 1 Level H1]
-    Tank1 --> Valve1[Interconnecting Valve V1]
-    Valve1 --> Tank2[Tank 2 Level H2]
-    Tank2 --> Valve2[Interconnecting Valve V2]
-    Valve2 --> Tank3[Tank 3 Level H3]
-    Tank3 --> Outflow[Discharge Valve V3]
-    Tank1 & Tank2 & Tank3 --> PLC[PID Level Controller]
+    Inflow["Pump Inflow Q1"] --> Tank1["Tank 1 Level H1"]
+    Tank1 --> Valve1["Interconnecting Valve V1"]
+    Valve1 --> Tank2["Tank 2 Level H2"]
+    Tank2 --> Valve2["Interconnecting Valve V2"]
+    Valve2 --> Tank3["Tank 3 Level H3"]
+    Tank3 --> Outflow["Discharge Valve V3"]
+    Tank1 & Tank2 & Tank3 --> PLC["PID Level Controller"]
     PLC --> Inflow
 ```
 
